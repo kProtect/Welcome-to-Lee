@@ -1,9 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
 
 /* header */
 body{
@@ -64,77 +58,98 @@ nav ul li a:hover{
     opacity: .8;
 }
 
-figure h3 {
+.caption {
     position: absolute;
     bottom: 25px;
     right: 0;
     font-size: 25px;
-    opacity: .2;
+    opacity: 0.3;
+    background-color: gray;
 }
 
-section {
-    font-size: 45px;
+
+
+.About {
     margin-top: 700px;
-    display: inline-flex;
-    color: #DFCFBE;
+    display: flex;
+    font-size: 50px;
 }
-
 
 h2 {
-    display: block;
-    border-right: solid black;
-    
+    border-right: 5px solid black;
 }
-p {
+
+.About p {
     font-size: 20px;
     flex-wrap: wrap;    
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 25px;
-}
-#Work {
-    margin-top: 150px;
-    position: relative;
+    color: white;
 }
 
-#cpu {
+.Work {
+    margin-top: 150px;
+    font-size: 50px;
+    display: flex;
+}
+
+
+.img1 {
     opacity: 1;
     display: block;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-}
-.Work:hover #cpu {
-    opacity: 0.5;
-    cursor: pointer;
-
-}
-.cpu {
-    width: 1020px;
-    height: 50%;
+    width: 1080px;
+    height: 40%;
     margin-left: 25px;
     margin-right: auto;
     border: 5px solid coral;
+    position: relative;
 }
-
-
-
-figcaption {
-    position:absolute;
-    bottom: 20px;
+.text {
+    position: absolute;
+    bottom: 5px;
     right: 5px;
-    background-color: coral;
+    background-color: black;
     color: white;
-    padding-left: 20px;
-    padding-right: 5px;
+}
+.img1:hover {
     opacity: 0.5;
-    text-align: center;
+    cursor: pointer;
 }
 
+.img2, .img3
+{
+    margin-top: 50px;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-left: 25px;
+    border: 5px solid coral;
+}
 
+.img3 {
+    margin-left: 20px;
+}
+.img2:hover {
+    opacity: 0.5;
+    transition: 1s ease;
+}
+.img3:hover {
+    opacity: 0.5;
+    transition: 1s ease;
+}
 
+.Contact{
+    display: flex;
+}
 
-
+.Contact ul li {
+    display: inline;
+    margin-left: 25px ;
+}
 
 
 
