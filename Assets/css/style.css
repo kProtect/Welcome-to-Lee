@@ -1,9 +1,3 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
 
 /* header */
 body{
@@ -42,7 +36,7 @@ nav ul li a {
     color: white;
     padding: 8px 50px;
     transition: all .5s ease ;
-    float: inline-end;
+    display: inline;
     
 }
 
@@ -80,31 +74,38 @@ main {
 }
 
 main h2 {
-
         display: block;
         width: auto;
         height: auto;
-        border-right: 5px;
-
+        border-right: 5px solid black;
+        padding-right: 20px;
 }
 section {
     font-size: 45px;
     display: inline-flex;
     color: #DFCFBE;
-    margin-left:10%;
     margin-top: 700px;
 }
 
-
+.About h2 {
+    margin-left: 117px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
 p {
     font-size: 20px;
     flex-wrap: wrap;
-    padding-left: 45px; 
+}
+
+.About p {
+    margin-left: 10px;
+    
     
 }
+
 .Work {
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 45px;
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +113,14 @@ p {
 
 }
 
+.Work h2 {
+    margin-left: 129px;
+    padding-right: 25px;
+}
+
+.Work p {
+    padding-right: 5px;
+}
 
 .img1 {
     opacity: 1;
@@ -129,7 +138,7 @@ p {
     opacity: 0.5;
     cursor: pointer;
 }
-.img2 {
+.img2{
     margin-top: 25px;
     opacity: 1;
     flex-wrap: wrap;
@@ -143,32 +152,27 @@ p {
     margin-left: 25px;
    
 }
+.img2:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
 
 .Contact {
     margin-top: 100px;
     display: inline-flex;
     font-size: 45px;
     color: #DFCFBE;
+
 }
 
-.Contact ul li {
+
+section nav ul li {
     display: inline-flex;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.3rem;
     font-weight: bold;
+    
 }
-
-.Contact ul li a {
-    text-decoration: none;
-    color: white;
-    padding: 8px 70px;
-    padding-left: 10px;
-    transition: all .5s ease;
-    float: inline-end;
-}
-
-
-
-
 
 
