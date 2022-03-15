@@ -34,7 +34,7 @@ header ul li {
 nav ul li a {
     text-decoration: none;
     color: white;
-    padding: 8px 50px;
+    padding: 8px 30px;
     transition: all .5s ease ;
     display: inline;
     
@@ -54,7 +54,7 @@ nav ul li a:hover{
     right: 0;
     height: 700px;
     width: 100%;
-    background: url("https://scontent.faus1-1.fna.fbcdn.net/v/t39.30808-6/275298889_5355617771134652_5323479294832478074_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=ig8iWbXiTwYAX-tuLPq&_nc_ht=scontent.faus1-1.fna&oh=00_AT90nM6GZWAYmV3fomwVlpGrYqY572Yhc6f1Ic91wnd9wA&oe=62304C5E") no-repeat center center/cover;
+    background: url("https://scontent.fatl1-2.fna.fbcdn.net/v/t39.30808-6/275298889_5355617771134652_5323479294832478074_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=FcWb2PQxlZkAX-V53VD&_nc_ht=scontent.fatl1-2.fna&oh=00_AT_GfQM44nR6KpmQq-2pJunhPmxx_ygPiHVg277Oozwd2g&oe=62363B1E") no-repeat center center/cover;
     z-index: -1;
     opacity: .8;
 }
@@ -225,12 +225,12 @@ section nav ul li {
     
 
     .img1{
-        width: 70%;
-        height: 70%;
+        width: 60%;
+        height: 60%;
     } 
     .img2{
-        width: 50%;
-        height: 50%;
+        width: 30%;
+        height: 30%;
         flex-direction: row;
 
     }
