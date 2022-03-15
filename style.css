@@ -210,6 +210,7 @@ section nav ul li {
         flex-direction: row;
         justify-content: space-evenly;
         flex-wrap: wrap;
+        display: inline;
     }
     .About p {
         margin-bottom: 50px;
@@ -234,3 +235,7 @@ section nav ul li {
 
     }
 }
+
+
+/*add caption to image*/
+/*create README.MD then finish*/
