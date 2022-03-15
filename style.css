@@ -190,6 +190,7 @@ section nav ul li {
         display: inline;
         flex-direction: row;
         justify-content: space-evenly;
+
     }
     .img1{
         width: 70%;
@@ -211,16 +212,17 @@ section nav ul li {
         justify-content: space-evenly;
         flex-wrap: wrap;
         display: inline;
+    
     }
     .About p {
-        margin-bottom: 50px;
+        margin-top: 10px;
 
     }
 
     h2 {
         font-size: large;
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
     
 
