@@ -132,12 +132,19 @@ p {
     width: 1020px;
     border: 5px solid coral;
     margin-left: 25px;
-   
+    position: relative;
+
 }
+
+.cap {
+    position:absolute;
+}
+
 .img1:hover{
     opacity: 0.5;
     cursor: pointer;
 }
+
 .img2{
     margin-top: 25px;
     opacity: 1;
@@ -150,6 +157,7 @@ p {
     border: 5px solid coral;
     justify-content: space-around;
     margin-left: 25px;
+    position: relative;
    
 }
 .img2:hover{
