@@ -40,7 +40,7 @@ header ul li {
 nav ul li a {
     text-decoration: none;
     color: white;
-    padding: 8px 25px;
+    padding: 8px 50px;
     transition: all .5s ease ;
     float: inline-end;
     
@@ -76,32 +76,35 @@ figure h3 {
 main {
     display: flex;
     flex-wrap: wrap;
+    padding: 8px 50px;
 }
 
+main h2 {
+
+        display: block;
+        width: auto;
+        height: auto;
+        border-right: 5px;
+
+}
 section {
     font-size: 45px;
-    margin-top: 700px;
     display: inline-flex;
     color: #DFCFBE;
-    margin-left: 0%;
-    float: left;
+    margin-left:10%;
+    margin-top: 700px;
 }
 
 
-h2 {
-    display: block;
-    width: auto;
-    height: auto;
-    border-right: 5px solid black;
-}
+
 p {
     font-size: 20px;
-    flex-wrap: wrap;    
-    margin-top: auto;
-    margin-bottom: auto;
+    flex-wrap: wrap;
+    padding-left: 45px; 
+    
 }
 .Work {
-    margin-top: 50px;
+    margin-top: 100px;
     font-size: 45px;
     display: flex;
     flex-wrap: wrap;
@@ -122,7 +125,7 @@ p {
     margin-left: 25px;
    
 }
-.Work:hover .img1 {
+.img1:hover{
     opacity: 0.5;
     cursor: pointer;
 }
@@ -141,25 +144,28 @@ p {
    
 }
 
-footer {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 35px;
+.Contact {
+    margin-top: 100px;
+    display: inline-flex;
+    font-size: 45px;
     color: #DFCFBE;
-    float: left;
 }
 
-footer ul li {
+.Contact ul li {
     display: inline-flex;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.3rem;
     font-weight: bold;
-    float: inline-end;
-    
 }
 
+.Contact ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 70px;
+    padding-left: 10px;
+    transition: all .5s ease;
+    float: inline-end;
+}
 
 
 
