@@ -7,6 +7,7 @@
 * Added right UI so when user cliks, it goes to correct links.
 * Added the Kyu's first application/development, link to first application
 * Added browser responsive webpage so users can view on mobile,tablet,desktop.
+* Made First application's image is larger in size than others.
 
 
 <br>
@@ -18,3 +19,10 @@
 
 
 ![Responsive](https://github.com/kProtect/Welcome-to-Lee/blob/main/img/Responsive.JPG?raw=true)
+
+
+<br>
+<br>
+
+![First Application Img]()
+
