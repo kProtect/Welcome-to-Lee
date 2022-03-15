@@ -201,10 +201,36 @@ section nav ul li {
         flex-direction: row;
 
     }
+}
+@media screen and (max-width: 992px) {
+    nav ul li a {
+        flex-direction: row;
+    }
+    .About, .Work, .Contact {
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .About p {
+        margin-bottom: 50px;
 
-   
+    }
 
+    h2 {
+        font-size: large;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
 
+    .img1{
+        width: 70%;
+        height: 70%;
+    } 
+    .img2{
+        width: 50%;
+        height: 50%;
+        flex-direction: row;
 
-
+    }
 }
