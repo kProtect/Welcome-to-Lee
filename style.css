@@ -34,7 +34,7 @@ header ul li {
 nav ul li a {
     text-decoration: none;
     color: white;
-    padding: 8px 50px;
+    padding: 8px 30px;
     transition: all .5s ease ;
     display: inline;
     
@@ -224,12 +224,12 @@ section nav ul li {
     
 
     .img1{
-        width: 70%;
-        height: 70%;
+        width: 60%;
+        height: 60%;
     } 
     .img2{
-        width: 50%;
-        height: 50%;
+        width: 30%;
+        height: 30%;
         flex-direction: row;
 
     }
