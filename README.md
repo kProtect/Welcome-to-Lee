@@ -8,4 +8,8 @@
 * Added the Kyu's first application/development, link to first application
 * Added browser responsive webpage so users can view on mobile,tablet,desktop.
 
-[Main](https://github.com/kProtect/Welcome-to-Lee/blob/main/img/Main.JPG?raw=true)
+
+<br>
+
+
+![Main](https://github.com/kProtect/Welcome-to-Lee/blob/main/img/Main.JPG?raw=true)
