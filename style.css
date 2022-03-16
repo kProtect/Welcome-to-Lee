@@ -136,14 +136,13 @@ p {
 
 }
 
-.cap {
-    position:absolute;
-}
+
 
 .img1:hover{
     opacity: 0.5;
     cursor: pointer;
 }
+
 
 .img2{
     margin-top: 25px;
@@ -163,6 +162,7 @@ p {
     opacity: 0.5;
     cursor: pointer;
 }
+
 
 
 .Contact {

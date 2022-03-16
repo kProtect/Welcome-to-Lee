@@ -24,5 +24,5 @@
 <br>
 <br>
 
-![First Application Img]()
+![First Application Img](https://github.com/kProtect/Welcome-to-Lee/blob/main/img/First%20application%20img.JPG?raw=true)
 
