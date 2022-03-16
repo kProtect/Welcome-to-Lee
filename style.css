@@ -76,16 +76,13 @@ figure h3 {
     opacity: .8;
 }
 
-/*sets the main the display flex, flex-wrap wrap, padding 8px 50px*/
-
+/*sets the main the display flex, flex-wrap wrap,*/
 main {
     display: flex;
     flex-wrap: wrap;
-    padding: 8px 50px;
 }
 
 /*sets the main h2 display block, width auto, height auto, border-right 5px solid black, padding-right 18px*/
-
 main h2 {
         display: block;
         width: auto;
@@ -95,7 +92,6 @@ main h2 {
 }
 
 /*sets the section font-size 45px, display inline-flex, color #DFCFBE, margin-top 700px*/
-
 section {
     font-size: 45px;
     display: inline-flex;
@@ -103,29 +99,25 @@ section {
     margin-top: 700px;
 }
 
-/*sets the .About h2 margin-left 117px, margin-top auto, margin-bottom auto*/
-
+/*sets the .About h2 margin-left 38px, margin-top auto, margin-bottom auto*/
 .About h2 {
-    margin-left: 117px;
+    margin-left: 115px;
     margin-top: auto;
     margin-bottom: auto;
 }
 
 /*sets the p font-size 20px, flex-wrap wrap*/
-
 p {
     font-size: 20px;
     flex-wrap: wrap;
 }
 
 /*sets the .About p margin-left 10px*/
-
 .About p {
     margin-left: 10px;   
 }
 
 /*sets the .Work margin-top 50px, font-size 45px, display flex, flex-wrap wrap, color to #DFCFBE*/
-
 .Work {
     margin-top: 50px;
     font-size: 45px;
@@ -136,20 +128,18 @@ p {
 }
 
 /*sets the .Work h2 margin-left 129px, padding-right 25px*/
-
 .Work h2 {
-    margin-left: 129px;
-    padding-right: 25px;
+    margin-left: 130px;
+    padding-right: 20px;
 }
 
 /*sets the .Work p padding-right 5px*/
-
 .Work p {
     padding-right: 5px;
 }
 
-/*sets the .img1 opacity 1, display flex, flex-wrap wrap, height auto, transition .5s ease, backface-visibility hidden, width 1020px, border 5px solid coral, margin-left 25px, position relative */
 
+/*sets the .img1 opacity 1, display flex, flex-wrap wrap, height auto, transition .5s ease, backface-visibility hidden, width 1020px, border 5px solid coral, margin-left 25px, position relative */
 .img1 {
     opacity: 1;
     display: flex;
@@ -157,47 +147,43 @@ p {
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-    width: 1020px;
+    width: 1030px;
     border: 5px solid coral;
     margin-left: 25px;
     position: relative;
-
 }
 
-/*sets the .img1 hover to opactiy 0.5 , cursor pointer*/
 
+/*sets the .img1 hover to opactiy 0.5 , cursor pointer*/
 .img1:hover{
     opacity: 0.5;
     cursor: pointer;
 }
 
 /*sets the .img2 margin-top 25px, opactiy 1, flex-wrap wrap, height auto, transition .5s ease, backface-visibility hidden, width 495px, height 250px, border 5px solid coral, margin-left 25px, position relative*/
-
-
 .img2{
     margin-top: 25px;
-    opacity: 1;
     flex-wrap: wrap;
-    height: auto;
+    opacity: 1;
     transition: .5s ease;
     backface-visibility: hidden;
     width: 495px;
-    height: 250px;
+    height: 150px;
     border: 5px solid coral;
     margin-left: 25px;
     position: relative;
+    display: inline-flex;
    
 }
-
 /*sets the .img2 hover to opacity 0.5, cursor pointer*/
-
 .img2:hover{
     opacity: 0.5;
     cursor: pointer;
 }
 
-/*Sets the .Contact margin-top 100px, display inline-flex, font-size 45px, textcolor to #DFCFBE*/
 
+
+/*Sets the .Contact margin-top 100px, display inline-flex, font-size 45px, textcolor to #DFCFBE*/
 .Contact {
     margin-top: 100px;
     display: inline-flex;
@@ -207,7 +193,6 @@ p {
 }
 
 /*Sets the section nav ul li to display inline-flex, font-family 'Times New Roman', Times, serif, font-size 1.3rem, font-weight bold*/
-
 section nav ul li {
     display: inline-flex;
     font-family: 'Times New Roman', Times, serif;
@@ -217,7 +202,6 @@ section nav ul li {
 }
 
 /*sets the media screen max-width to 768px to mobile view, nav ul li a flex-direction row, .About .Work .Contact display inline, flex-direction row, justitfy content space-evenly. .img1 width 70%. height 70%, .img2 width 50%. height 50%, flex-direction.*/
-
 @media screen and (max-width: 768px) {
     nav ul li a {
         flex-direction: row;
@@ -241,7 +225,6 @@ section nav ul li {
 }
 
 /*sets the media screen max width to 992px to desktop view, nav ul li a flex-direction row, .About,.Work,.Contact flex-direction row, justify content space-evenly, flex-wrap wrap, display inline, .About p margin-top 10px, h2 font-size large, text-align center, margin-bottom 20px*/
-
 @media screen and (max-width: 992px) {
     nav ul li a {
         flex-direction: row;
