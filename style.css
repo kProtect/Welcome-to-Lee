@@ -178,6 +178,7 @@ p {
    
 }
 
+/*sets the .class2 background-color to antiquewhite, posotion to absolute, left 500px, bottom 10px*/
 .class2{
     background-color: antiquewhite;
     position: absolute;
