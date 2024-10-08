@@ -1,272 +1,53 @@
-
-/* sets the body back-ground color to #92a8d1 */
-body{
-    background-color: #92a8d1;
-}
-
-/*set the header display flex, justify-contect center, align-items center, background-color rgba(0, 0, 0, 0.5), font-size 35 */
-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    font-size: 35px;
-}
-
-/*sets the h1 display to flex, color to white, margin-right to auto*/
-h1 {
-    display: flex;
-    color: white;
-    margin-right: auto;
-}
-
-/*sets the h1 to hover cursor to crosshair, background-color aqua, color to brown*/
-h1:hover{
-    cursor: crosshair;
-    background-color: aqua;
-    color: brown;
-}
-
-/*sets header ul li display to inline-flex, font-family 'Times New Roman', Times, serif, font-size 1.3rem, font-weight bold*/
-header ul li {
-    display: inline-flex;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.3rem;
-    font-weight: bold;
-    
-}
-
-/*sets the nav ul li a text-decoration, color white, padding to 8px 30px, transition all .5s ease, disaply inline*/
-nav ul li a {
-    text-decoration: none;
-    color: white;
-    padding: 8px 30px;
-    transition: all .5s ease ;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
     display: inline;
-    
-}
-
-/*sets nav ul li a:hover background-color white, color black, box-shadow 0 0 10px white*/
-nav ul li a:hover{
-    background-color: white;
-    color: black;
-    box-shadow: 0 0 10px white;
-
-}
-
-/*sets the .Lee class content " ", position to absolute, top 0, right 0, height 700px, width 100%, background to recent picture, z-index to -1, opacity to .8z*/
-.Lee {
-    content: "";
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
     position: absolute;
-    top: 0;
-    right: 0;
-    height: 700px;
+    bottom: 0;
     width: 100%;
-    background: url(./img/6SNHU92_79xQnU_Thoy5_480912.jpg) no-repeat center center/cover;
-    background-color: gray;
-    z-index: -1;
-    opacity: .8;
-}
-
-/*sets the figure h3 to position absolute, bottom 25px, right 0, font-size 25px, opacity .8*/
-figure h3 {
-    position: absolute;
-    bottom: 25px;
-    right: 0;
-    font-size: 25px;
-    opacity: .8;
-}
-
-/*sets the main the display flex, flex-wrap wrap,*/
-main {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-/*sets the main h2 display block, width auto, height auto, border-right 5px solid black, padding-right 18px*/
-main h2 {
-        display: block;
-        width: auto;
-        height: auto;
-        border-right: 5px solid black;
-        padding-right: 18px;
-}
-
-/*sets the section font-size 45px, display inline-flex, color #DFCFBE, margin-top 700px*/
-section {
-    font-size: 45px;
-    display: inline-flex;
-    color: #DFCFBE;
-    margin-top: 700px;
-}
-
-/*sets the .About h2 margin-left 38px, margin-top auto, margin-bottom auto*/
-.About h2 {
-    margin-left: 115px;
-    margin-top: auto;
-    margin-bottom: auto;
-}
-
-/*sets the p font-size 20px, flex-wrap wrap*/
-p {
-    font-size: 20px;
-    flex-wrap: wrap;
-}
-
-/*sets the .About p margin-left 10px*/
-.About p {
-    margin-left: 10px;   
-}
-
-/*sets the .Work margin-top 50px, font-size 45px, display flex, flex-wrap wrap, color to #DFCFBE*/
-.Work {
-    margin-top: 50px;
-    font-size: 45px;
-    display: flex;
-    flex-wrap: wrap;
-    color: #DFCFBE;
-
-}
-
-/*sets the .Work h2 margin-left 129px, padding-right 25px*/
-.Work h2 {
-    margin-left: 115px;
-    padding-right: 35px;
-}
-
-/*sets the .Work p padding-right 5px*/
-.Work p {
-    padding-right: 5px;
-}
-
-
-/*sets the .img1 opacity 1, display flex, flex-wrap wrap, height auto, transition .5s ease, backface-visibility hidden, width 1020px, border 5px solid coral, margin-left 25px, position relative */
-.img1 {
-    opacity: 1;
-    display: flex;
-    flex-wrap: wrap;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-    width: 1030px;
-    border: 5px solid coral;
-    margin-left: 25px;
-    position: relative;
-}
-
-
-
-
-/*sets the .img1 hover to opactiy 0.5 , cursor pointer*/
-.img1:hover{
-    opacity: 0.5;
-    cursor: pointer;
-}
-
-/*sets the .img2 margin-top 25px, opactiy 1, flex-wrap wrap, height auto, transition .5s ease, backface-visibility hidden, width 495px, height 250px, border 5px solid coral, margin-left 25px, position relative*/
-.img2{
-    margin-top: 25px;
-    flex-wrap: wrap;
-    opacity: 1;
-    transition: .5s ease;
-    backface-visibility: hidden;
-    width: 495px;
-    height: 150px;
-    border: 5px solid coral;
-    margin-left: 25px;
-    position: relative;
-    display: inline-flex;
-   
-}
-
-/*sets the .class2 background-color to antiquewhite, posotion to absolute, left 500px, bottom 10px*/
-.class2{
-    background-color: antiquewhite;
-    position: absolute;
-    left: 500px;
-    bottom: 10px;
-}
-/*sets the .img2 hover to opacity 0.5, cursor pointer*/
-.img2:hover{
-    opacity: 0.5;
-    cursor: pointer;
-}
-
-
-
-/*Sets the .Contact margin-top 100px, display inline-flex, font-size 45px, textcolor to #DFCFBE*/
-.Contact {
-    margin-top: 100px;
-    display: inline-flex;
-    font-size: 45px;
-    color: #DFCFBE;
-
-}
-
-/*Sets the section nav ul li to display inline-flex, font-family 'Times New Roman', Times, serif, font-size 1.3rem, font-weight bold*/
-section nav ul li {
-    display: inline-flex;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.3rem;
-    font-weight: bold;
-    
-}
-
-/*sets the media screen max-width to 768px to mobile view, nav ul li a flex-direction row, .About .Work .Contact display inline, flex-direction row, justitfy content space-evenly. .img1 width 70%. height 70%, .img2 width 50%. height 50%, flex-direction.*/
-@media screen and (max-width: 768px) {
-    nav ul li a {
-        flex-direction: row;
-    }
-    .About, .Work, .Contact {
-        display: inline;
-        flex-direction: row;
-        justify-content: space-evenly;
-
-    }
-    .img1{
-        width: 70%;
-        height: 70%;
-    } 
-    .img2{
-        width: 50%;
-        height: 50%;
-        flex-direction: row;
-
-    }
-}
-
-/*sets the media screen max width to 992px to desktop view, nav ul li a flex-direction row, .About,.Work,.Contact flex-direction row, justify content space-evenly, flex-wrap wrap, display inline, .About p margin-top 10px, h2 font-size large, text-align center, margin-bottom 20px*/
-@media screen and (max-width: 992px) {
-    nav ul li a {
-        flex-direction: row;
-    }
-    .About, .Work, .Contact {
-        flex-direction: row;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        display: inline;
-    
-    }
-    .About p {
-        margin-top: 10px;
-
-    }
-
-    h2 {
-        font-size: large;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    
-
-    .img1{
-        width: 60%;
-        height: 60%;
-    } 
-    .img2{
-        width: 30%;
-        height: 30%;
-        flex-direction: row;
-
-    }
-}
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
