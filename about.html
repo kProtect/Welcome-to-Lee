@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Meta tag for character encoding to support various characters -->
   <meta charset="UTF-8" />
+  
+  <!-- Meta tag for responsive design to make the webpage adaptable to different devices -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Title of the webpage displayed in the browser tab -->
   <title>About Me</title>
+
+  <!-- Link to external CSS file for styling the page -->
   <link rel="stylesheet" href="style.css" />
+
+  <!-- Link to an external JavaScript file for adding interactivity -->
   <script src="script.js"></script>
 </head>
 <body>
+  
+  <!-- Header section with page title and navigation menu -->
   <header>
     <h1>About Henry Lee</h1>
+
+    <!-- Navigation bar with links to different sections of the portfolio -->
     <nav>
       <ul>
+        <!-- List items with links to Home, About Me, and Contact Me pages -->
         <li><a href="home.html">Home</a></li>
         <li><a href="about.html">About Me</a></li>
         <li><a href="contact.html">Contact Me</a></li>
@@ -19,27 +33,36 @@
     </nav>
   </header>
 
+  <!-- Main content area containing details about the developer -->
   <main>
+
+    <!-- About section with a short bio and an interactive text area -->
     <section id="About">
       <h2>About Me</h2>
-      <p>Hello, Henry Lee, Information Technology major at Kenenesaw State University.</p>
-      <textarea id="message" maxlength="100" oninput="updateCharCount()"></textarea>
-<p>Characters remaining: <span id="charCount">100</span></p>
+      <!-- A brief description of the developer -->
+      <p>Hello, Henry Lee, Information Technology major at Kennesaw State University.</p>
 
+      <!-- Textarea for input, with a maximum character limit and a character counter -->
+      <textarea id="message" maxlength="100" oninput="updateCharCount()"></textarea>
+      <!-- Span element to display remaining characters dynamically -->
+      <p>Characters remaining: <span id="charCount">100</span></p>
     </section>
 
-    <!-- Added Work Section -->
+    <!-- Work section showcasing projects with images linked to GitHub repositories -->
     <section id="Work" class="Work">
       <h2>Work</h2>
       <p>
+        <!-- Link to a GitHub project with an associated image -->
         <a href="https://github.com/kProtect/My-Reads-App">
           <img id="img1" class="img1" src="https://images.freeimages.com/images/small-previews/01a/technology-background-1632715.jpg" alt="Cpu image">
-        </a>   
+        </a>
 
+        <!-- Link to another GitHub project with an associated image -->
         <a href="https://github.com/kProtect/Restaurant-App-1.0">
           <img id="img2" class="img2" src="https://images.unsplash.com/photo-1529405147636-6aaa3abe9536?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIyfGFldTZyTC1qNmV3fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Restaurant app">
         </a>
-        
+
+        <!-- Link to a password generator project with an associated image -->
         <a href="https://github.com/kProtect/PW-Gen-1.0">
           <img id="img3" class="img3" src="https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Password Generator">
         </a>
@@ -48,8 +71,10 @@
 
   </main>
 
+  <!-- Footer section with copyright information -->
   <footer>
     <p>&copy; 2024 Henry Lee</p>
   </footer>
+
 </body>
 </html>
