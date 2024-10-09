@@ -1,9 +1,7 @@
-function validateForm() {
-    let name = document.forms["contactForm"]["name"].value;
-    let email = document.forms["contactForm"]["email"].value;
-    if (name == "" || email == "") {
-      alert("Name and email must be filled out");
-      return false;
-    }
-  }
-  
+function updateCharCount() {
+  let message = document.getElementById("message").value;
+  let charCount = document.getElementById("charCount");
+  let remaining = 100 - message.length;
+
+  charCount.textContent = remaining;
+}
